@@ -13,7 +13,6 @@ It uses **Selenium** and **PyAutoGUI** to simulate typing and mouse clicks, made
 * **No long-term maintenance** — just for fun and experience
 
 [![python-version-shield](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white&labelColor=black)](https://www.python.org/)
-[![license-shield](https://img.shields.io/badge/license-MIT-green?labelColor=black)](LICENSE)
 
 ---
 
