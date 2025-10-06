@@ -72,10 +72,3 @@ If the script clicks in the wrong place, adjust this line in your code:
       pyautogui.click(x=100, y=200)
 
 You can change the coordinates until the cursor clicks inside the typing area on the site.
-
----
-
-### 💭 Final Thoughts
-
-This is my **first Python project**, made to learn browser automation and scripting basics.  
-It’s a fun little experiment with Python, Selenium, and PyAutoGUI — feel free to explore and improve it!
