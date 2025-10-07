@@ -4,11 +4,14 @@ from datetime import datetime
 import time
 import pyautogui
 
+# Current date 
+current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
 # Configuration 
 chrome_driver_path = "/path/to/chromedriver"
 custom_text = ""  # The text that the script will say
 use_list = True   # If True, go through all pages in words.txt
-page_name = "67"  # Page to write on (e.g. https://www.yourworldoftext.com/67)
+page_name = ""    # Page to write on (e.g. https://www.yourworldoftext.com/67)
 delay = 0.02      # Delay between each keystroke
 amount = 0        # Starting counter
 
@@ -21,9 +24,6 @@ options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
 service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service, options=options)
-
-# Current date 
-current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # Main Logic
 if use_list:
@@ -43,3 +43,4 @@ else:
     pyautogui.write(text, interval=delay)
 
 driver.quit()
+
