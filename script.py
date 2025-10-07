@@ -5,7 +5,7 @@ import time
 import pyautogui
 
 # Configuration 
-chrome_driver_path = r"C:\Users\lucas\Documents\GitHub\yourworldoftext\chromedriver.exe"
+chrome_driver_path = "/path/to/chromedriver"
 use_list = True  # If True, go through all pages in words.txt
 page_name = "67"  # Page to write on (e.g. https://www.yourworldoftext.com/67)
 delay = 0.02      # Delay between each keystroke
@@ -42,3 +42,4 @@ else:
     pyautogui.write(text, interval=delay)
 
 driver.quit()
+
