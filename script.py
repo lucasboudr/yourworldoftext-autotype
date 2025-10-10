@@ -43,4 +43,3 @@ else:
     pyautogui.write(text, interval=delay)
 
 driver.quit()
-
