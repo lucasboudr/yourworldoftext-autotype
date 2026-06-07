@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > This is a small project I made for my own learning experience with Python.  
-> It’s my **first Python project**, made just for practice — so it won’t have long-term support or updates.
+> It’s my **first Python project**, made just for practice - so it won’t have long-term support or updates.
 
 ### 🧠 YourWorldOfText Autotype
 
